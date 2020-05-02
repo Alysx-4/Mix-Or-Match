@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="cards.js" async></script>
+    <script src="card.js" async></script>
+    <script src="audio.js" async></script>
+    <script src="mix-or-match.js" async></script>
     <script src="app.js" async></script>
     <title>Mix-Or-Match</title>
 </head>
@@ -27,28 +33,13 @@
                 Flips <span id="flips">0</span>
             </div>
         </div>
-        <div class="card">
-            <div class="card-back card-face">   
-            </div>
-            <div class="card-front card-face">
-
-            </div>
-        </div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div id="cards"></div>
     </div>
+
+    <div class="main">
+    <div class="sidenav">
+        <a href="https://en.wikipedia.org/wiki/Concentration_(card_game)">About Game</a>
+        <a href="https://www.pandotrip.com/top-10-wonderful-historic-monuments-1567/">Monuments</a>
+      </div>
 </body>
 </html> 
